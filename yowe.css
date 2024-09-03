@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.background {
+    background-image: url(este.jpg);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.content {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0%, 0%, 0%, 0.5);
+    z-index: -1;
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.5rem;
+}
+.btn-link {
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #ff5733; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c70039;
+}
